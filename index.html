@@ -50,33 +50,9 @@
         </div>
       </header>
       <main class="mdl-layout__content">
-        <img src="./images/co.png" alt="code" />
-        <div class="page-content">what is your circle leanght</div>
-        <!--the comment for the name-->
-        <form action="#">
-          <div class="mdl-textfield mdl-js-textfield">
-            <!-- input pattern attribute -->
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="[1-9]*"
-              id="demo-input"
-            />
-            <!-- mdl-textfield__label -->
-            <label class="mdl-textfield__label" for="demo-input"
-              >Inpot number</label
-            >
-            <!-- class "mdl-textfield__error" -->
-            <span class="mdl-textfield__error">Input number</span>
-          </div>
-        </form>
-        <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="myButtonClicked()"
-        >
-          search
-        </button>
-        <p>The answer is:</p>
+        <div id="weather-icon"></div>
+        <div class="page-content-answer">
+          <div id="answer"></div>
       </main>
     </div>
   </body>
